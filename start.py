@@ -65,3 +65,24 @@ print(f"{0.1:.30f}")
 
 # listy!!!!!!!
 
+lista = []
+lista2 = [1, 2, 3]
+lista3 = [1, "Ala", 3.4, True, None]
+final_list = lista + lista2 + lista3 
+lista2[2] #wartość 3, indeks 2
+lista4 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+lista4[1][1] #daje nam 5 
+
+# słownik 
+slownik = {}
+slownik2 = {"klucz": "wartość"}
+slownik3 = {0: "Adam"}
+
+slownik2["klucz"] #musimy wybrać klucz
+slownik3[0] #nie pierwszy element a klucz 
+slownik2.keys()
+slownik2.values()
